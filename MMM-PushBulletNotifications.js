@@ -95,7 +95,7 @@ Module.register("MMM-PushBulletNotifications", {
                 var icon = null;
                 if (self.config.showIcons) {
                     icon = document.createElement("span");
-                    icon.className = "icon";
+                    icon.className = "pb-icon";
 
                     //Normal push (decide what icon to use based on device) or SMS
                     if (o.type === "note" || o.type === "sms_changed") {
@@ -179,7 +179,7 @@ Module.register("MMM-PushBulletNotifications", {
                         message = o.body.substring(0, self.config.maxMsgCharacters) + "...";
                     }
 
-                    bodyContentWrapper.className = "bright small message";
+                    bodyContentWrapper.className = "bright small pb-message";
                     bodyContentWrapper.innerHTML = message;
                     bodyWrapper.appendChild(bodyContentWrapper);
                     wrapper.appendChild(bodyWrapper);

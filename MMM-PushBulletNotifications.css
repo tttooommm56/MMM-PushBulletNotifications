@@ -4,13 +4,13 @@
  * Bas Knol
  * MIT Licensed.
  */
-.message {
+.pb-message {
     padding-bottom: 15px;
     padding-left: 10px;
     text-align: right;
 }
 
-.icon {
+.pb-icon {
     padding-left: 0;
     padding-right: 10px;
     font-size: 80%;
@@ -18,8 +18,4 @@
     -ms-transform: translate(0, 5px); /* IE 9 */
     -webkit-transform: translate(0, 5px); /* Safari */
     transform: translate(0, 5px);
-}
-
-td {
-    padding-left: 5px;
 }
