@@ -179,7 +179,7 @@ Module.register("MMM-PushBulletNotifications", {
                         message = o.body.substring(0, self.config.maxMsgCharacters) + "...";
                     }
 
-                    bodyContentWrapper.className = "normal xsmall message";
+                    bodyContentWrapper.className = "bright small message";
                     bodyContentWrapper.innerHTML = message;
                     bodyWrapper.appendChild(bodyContentWrapper);
                     wrapper.appendChild(bodyWrapper);
